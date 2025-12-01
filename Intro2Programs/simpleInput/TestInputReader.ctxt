@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=TestInputReader
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ TestInputReader\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=TestInputReader()
-comment2.params=
-comment2.target=void\ test()
-comment2.text=\ This\ method\ asks\ the\ user\ for\ two\ numbers\ and\ prints\r\n\ out\ their\ sum\r\n
-numComments=3
