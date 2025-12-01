@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=NumberJudge
+comment0.text=\r\n\ *\ Judge\ the\ number\ and\ return\ a\ text\ result.\r\n\ @author\ (Luke\ Brighton\ \=\ LB837)\r\n
+comment1.params=number
+comment1.target=java.lang.String\ judge(int)
+comment2.params=number
+comment2.target=void\ showJudgement(int)
+numComments=3

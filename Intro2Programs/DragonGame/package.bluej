@@ -1,0 +1,27 @@
+#BlueJ package file
+objectbench.height=92
+objectbench.width=533
+package.divider.horizontal=0.6
+package.divider.vertical=0.8273878020713463
+package.editor.height=471
+package.editor.width=444
+package.editor.x=488
+package.editor.y=30
+package.frame.height=678
+package.frame.width=572
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+readme.height=60
+readme.name=@README
+readme.width=48
+readme.x=10
+readme.y=10
+target1.height=70
+target1.name=Dragon
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=120
+target1.x=60
+target1.y=250

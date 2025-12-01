@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=WineRack
+comment1.params=
+comment1.target=WineRack()
+comment2.params=wine
+comment2.target=void\ addWine(Wine)
+comment3.params=wine
+comment3.target=void\ removeWine(Wine)
+comment4.params=
+comment4.target=void\ displayWines()
+numComments=5

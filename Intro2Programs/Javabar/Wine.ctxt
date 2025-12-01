@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Wine
+comment1.params=name\ year\ region
+comment1.target=Wine(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getYear()
+comment4.params=
+comment4.target=java.lang.String\ getRegion()
+comment5.params=
+comment5.target=int\ getVolume()
+comment6.params=
+comment6.target=float\ getAlcoholContent()
+comment7.params=
+comment7.target=void\ displayInfo()
+comment8.params=
+comment8.target=void\ drink()
+numComments=9

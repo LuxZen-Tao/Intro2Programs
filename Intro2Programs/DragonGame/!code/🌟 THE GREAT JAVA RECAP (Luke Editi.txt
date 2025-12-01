@@ -1,0 +1,241 @@
+🌟 THE GREAT JAVA RECAP (Luke Edition)
+
+Here’s everything you’ve learned — abstracted, simplified, and tied together.
+
+⭐ 1. Classes = Blueprints
+
+A class is a recipe.
+An object is a baked cake made from that recipe.
+
+public class Dragon { ... }
+Dragon draco = new Dragon();
+
+
+Blueprint → object.
+Simple as that.
+
+⭐ 2. Fields = The Object’s Memory
+
+These are the variables that belong to an object.
+
+HP
+
+damage
+
+favourite flavour
+
+pocket of coins
+
+packet of crisps
+
+They store the state of an object.
+
+private int health;
+private String flavour;
+
+⭐ 3. Constructor = Birth Event
+
+The constructor runs when the object is created.
+
+public Dragon(int speed) { ... }
+
+
+It sets up the object’s initial state.
+
+⭐ 4. Methods = Behaviours / Actions
+
+Objects do things using methods:
+
+breathFire()
+
+snackTime()
+
+eatCrisp()
+
+buyPack()
+
+runSnackBar()
+
+They transform the object’s state or perform actions.
+
+⭐ 5. Return vs Do
+Return
+
+“Give me a value.”
+
+public int getHealth() { return health; }
+
+Do
+
+“Print something or perform an action.”
+
+public void roar() { System.out.println("ROAR!"); }
+
+Some methods do both
+
+(but early Java avoids this).
+
+⭐ 6. Describe vs Getter
+Getter:
+
+Quiet. Returns a data point.
+
+Describe method:
+
+Loud. Prints a story or summary of the object.
+
+Both are essential.
+
+⭐ 7. Arrays = Fixed Lists
+
+Good for small collections that never change size.
+
+String[] flavours = {"salt", "vinegar", "cheese"};
+
+
+Have:
+
+.length
+
+index access flavours[i]
+
+Used in SnackBar.
+
+⭐ 8. ArrayLists = Stretchy Bags
+
+Grow and shrink. Store objects.
+
+ArrayList<Student> students = new ArrayList<>();
+
+
+Core methods:
+
+.add()
+
+.get(i)
+
+.remove(i)
+
+.size()
+
+Used everywhere in coursework.
+
+⭐ 9. HashSet = Unordered Bag (No duplicates)
+
+Used in Pocket → storing coins.
+
+HashSet<Penny> coins = new HashSet<>();
+
+
+Methods similar:
+
+.add()
+
+.remove()
+
+.size()
+
+⭐ 10. Loops
+For-Each Loop
+
+Cleanest way to walk through collections.
+
+for (Student s : students) { s.snackTime(); }
+
+For Loop
+
+Perfect for indexing, removing, counting.
+
+for (int i = 0; i < packets.size(); i++) { ... }
+
+While Loop
+
+Good for repeating until a condition is false.
+
+while (step < nSteps) { ... }
+
+⭐ 11. Random Selection
+
+Used heavily in SnackBar.
+
+int index = rand.nextInt(students.size());
+Student s = students.get(index);
+
+
+Random + ArrayList = simulation engine.
+
+⭐ 12. Scanner for User Input
+Scanner sc = new Scanner(System.in);
+int x = sc.nextInt();
+String name = sc.nextLine();
+
+
+Used for menu systems, user-customised dragons, etc.
+
+⭐ 13. Object Interaction
+
+This is the real heart of the SnackBar coursework.
+
+Objects talk to each other:
+
+Student inserts pennies into SnackMachine
+
+SnackMachine returns a PackOfCrisps
+
+Student stores PackOfCrisps in a field
+
+SnackBar orchestrates all objects
+
+Pocket stores Penny objects
+
+Student interacts with Pocket
+
+SnackMachine interacts with PackOfCrisps
+
+Everything is an ecosystem of objects.
+
+⭐ 14. Your Coursework Requires
+
+✔ Arrays
+✔ ArrayLists
+✔ HashSets
+✔ Constructors
+✔ Private fields
+✔ Getters
+✔ Behaviour methods
+✔ Object interactions
+✔ Loops
+✔ Random
+✔ Main method
+✔ describe()
+✔ buyPack(), snackTime(), runSnackBar()
+
+You have learned every single concept needed.
+
+⭐ 15. Your Brainskill Summary
+
+You now understand:
+
+Object-oriented design
+
+Collections
+
+Looping
+
+Random selection
+
+Encapsulation
+
+Constructor behaviour
+
+Return values vs actions
+
+Describe vs Getter
+
+Static vs instance fields
+
+Simulation structure
+
+You’re ready.
+
+Really ready.
