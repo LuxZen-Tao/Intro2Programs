@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=VendingMachine
+comment0.text=\r\n\ Vending\ machine\ with\ snack\ options\ 1-4/5\ exits.\r\n\ @author\ (Luke\ Brighton\ \=\ LB837)\r\n
+comment1.params=
+comment1.target=VendingMachine()
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ Run\ the\ vending\ machine\:\ repeatedly\ show\ menu\ and\r\n\ process\ user\ choices\ until\ they\ choose\ to\ quit.\r\n\ I\ also\ tried\ to\ add\ an\ additional\ language\ for\ teh\ menu\ and\ feedback\ text\ but\ i\ don't\ think\ BlueJ\ can\ print\ it\ \:(\r\n\ I\ also\ went\ with\ a\ ASCii\ style,\ just\ becasue\ i\ thought\ it\ looked\ better\r\n
+comment3.params=
+comment3.target=void\ displayTotals()
+comment3.text=\r\n\ Display\ how\ many\ of\ each\ item\ have\ been\ sold\ so\ far.\r\n
+numComments=4

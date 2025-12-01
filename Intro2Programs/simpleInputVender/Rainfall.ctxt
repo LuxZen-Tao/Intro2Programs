@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Rainfall
+comment0.text=\r\n\ Collects\ rainfall\ data\ and\ prints\ statistics.\r\n\ Uses\ 99999\ as\ a\ sentinel\ to\ end\ input.\r\n\r\n\ @author\ (Luke\ Brighton\ \=\ LB837)\r\n
+comment1.params=
+comment1.target=Rainfall()
+comment2.params=
+comment2.target=void\ getStatistics()
+comment2.text=\r\n\ Repeatedly\ read\ daily\ rainfall\ amounts\ (in\ mm)\ from\ the\ user\r\n\ until\ the\ sentinel\ value\ 99999\ is\ entered.\r\n\r\n\ Ignores\:\r\n\ \ -\ negative\ inputs\ (prints\ a\ warning\ and\ skips\ them)\r\n\r\n\ Computes\ and\ prints\:\r\n\ \ -\ average\ rainfall\ per\ valid\ day\r\n\ \ -\ number\ of\ rainy\ days\ (\ >\ 0\ mm\ )\r\n\ \ -\ number\ of\ valid\ inputs\r\n\ \ -\ maximum\ rainfall\ on\ any\ one\ day\r\n
+numComments=3
